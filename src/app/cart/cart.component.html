@@ -1,0 +1,52 @@
+<h2 class="heading">Cart</h2>
+<div class="row container-fluid cartBlock">
+  <div class="col-md-10 col-sm-12 col-xs-12">
+    <div *ngFor="let product of products" class="col-md-12 product shadow p-3 mb-5 bg-white rounded">
+      <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-12">
+          <img class="cart_prod_image centerProduct" src="{{product.image_url }}" alt="prod_image">
+        </div>
+        <div class="col-md-10 col-sm-10 col-xs-12 cartDivMargin">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="">{{ product.name }}</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cart_prod_price col-md-12 col-sm-12 col-xs-12">
+              {{ product.price | currency: "INR" }}
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <span class="removeButton" (click)="remove(product._id)">Remove from cart
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>
+<div class="col-md-2 col-sm-12 col-xs-12">
+  <div class="total_div">
+    <span class="panel panel-default">
+      <div class="row panel-body">
+        <div class="col-md-12">
+          <strong class="cartSummaryHeading">Cart summay</strong>
+        </div>
+        <div class="col-md-12">
+          <span class="cartSummaryValue">{{cartTotal | currency: "INR"}}</span>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<!-- <div class="totalPrice">
+  <p>
+    <h4>Total amount: {{cartTotal | currency: "Rs. "}}</h4>
+  </p>
+</div> -->

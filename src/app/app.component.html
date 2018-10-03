@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="row container-fluid">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <app-navbar></app-navbar>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 col-sm-12 col-xs-12">
+      <app-sidebar></app-sidebar>
+    </div>
+    <div id="content" class="contentMargin col-md-10 col-sm-12 col-xs-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+
+  <!-- <hr> -->
+  <footer class="page-footer font-small blue pt-4 footer_custom">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left bottom_footer">
+
+    </div>
+    <div>
+      <div class="bottom_logo_div">
+        <a href="http://www.geminisolutions.in">
+          <img class="bottom_logo" src="assets/images/l2.png" alt="bottom_logo">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="http://www.geminisolutions.in"> Gemini Solutions Pvt. Ltd.</a>
+    </div>
+  </footer>
+</div>

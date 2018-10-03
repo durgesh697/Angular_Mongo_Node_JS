@@ -1,0 +1,167 @@
+[
+    {
+      "category": "Electronics",
+      "image_url": "../assets/images/elec1.jpg",
+      "name": "OnePlus 6 (Mirror Black 6GB RAM + 64GB Memory)",
+      "price": "349990",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "category": "Electronics",
+      "image_url": ["../assets/images/elec2.jpg", "../assets/images/elec22.jpg"],
+      "name": "Huawei P20 Lite Midnight Black (19:9 Full View Display, 24MP Front Camera, 64GB)",
+      "price":  "19999",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "category": "Electronics",
+      "image_url": "../assets/images/elec3.jpg",
+      "name": "Samsung Galaxy S9 Plus (Midnight Black, 128 GB) (6GB RAM)",
+      "price": "66400",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "category": "Electronics",
+      "image_url": "../assets/images/elec4.jpg",
+      "name": "Huawei P20 Pro Blue (40MP Leica Triple Camera, 6GB+128GB)",
+      "price": "64999",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "F1",
+      "category": "Fashion",
+      "image_url": "../assets/images/fash1.jpg",
+      "name": "U.S.P.A white short sleeves",
+      "price": "1999",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "F2",
+      "category": "Fashion",
+      "image_url": "../assets/images/fash2.jpg",
+      "name": "U.S.P.A Black half sleeves v-neck",
+      "price": "1499",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "F3",
+      "category": "Fashion",
+      "image_url": ["../assets/images/fash3.jpg", "../assets/images/elec32.jpg"],
+      "name": "U.S. Polo Assn. white round-neck printed",
+      "price": "1299",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "F4",
+      "category": "Fashion",
+      "image_url": ["../assets/images/fash4.jpg", "../assets/images/fash42.jpg"],
+      "name": "U.S. Polo Assn. Plain white polo with red collar",
+      "price": "2299",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "S1",
+      "category": "Sports",
+      "image_url": ["../assets/images/sports1.jpg", "../assets/images/sports12.jpg"],
+      "name": "COSCO dribble standard size basketball",
+      "price": "2199",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "S2",
+      "category": "Sports",
+      "image_url": ["../assets/images/sports2.jpg", "../assets/images/elec22.jpg"],
+      "name": "SS four-piece season ball",
+      "price": "599",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "S3",
+      "category": "Sports",
+      "image_url": ["../assets/images/sports3.jpg", "../assets/images/sports32.jpg"],
+      "name": "Nivia web premium football keeping gloves",
+      "price": "899",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "B1",
+      "category": "Bicycle",
+      "image_url": ["../assets/images/cycle1.jpg", "../assets/images/cycle12.jpg"],
+      "name": "HERO DTB green 5-gear bicycle",
+      "price": "9990",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    },
+    {
+      "uniqueId": "B2",
+      "category": "Bicycle",
+      "image_url": ["../assets/images/cycle2.jpg", "../assets/images/cycle22.jpg"],
+      "name": "HERO avenger black-blue non-gear bicycle",
+      "price": "7999",
+      "description": [
+          "Screen Size (In Inches) 6.2 Display Technology Super Amoled",
+          "Screen Resolution (In Pixels) 1440 X 2560 Display",
+          "Features Capacitive Touchscreen Pixel Density (Ppi) 529",
+          "Scratch Resistant Glass Corning Gorilla Glass 5 To The Body"
+      ]
+    }
+]

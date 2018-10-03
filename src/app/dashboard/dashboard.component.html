@@ -1,0 +1,28 @@
+<div class="div_margin shadow p-3 mb-5 bg-white rounded" *ngFor="let cate of categories">
+  <div class="product">
+    <h2 class="category_title"> {{ cate }}
+      <a [routerLink]="['category', cate]">
+        <button class="btn btn-primary view_all_btn" type="button" name="button">View All</button>
+      </a>
+    </h2>
+    <div class="row container inner_div_margin">
+      <ng-container *ngFor="let p of products">
+        <div class="col-lg-3 col-md-6 col-sm-12" *ngIf="p.category === cate">
+          <a [routerLink]="['product', p._id]">
+            <div class="prod row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <img class="prod_image" src="{{ p.image_url }}" alt="{{ p.name }}">
+              </div>
+              <div class="prod_name col-md-12 col-sm-12 col-xs-12">
+                {{ p.name }}
+              </div>
+              <div class="prod_price col-md-12 col-sm-12 col-xs-12">
+                {{ p.price | currency: "Rs. " }}
+              </div>
+            </div>
+          </a>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

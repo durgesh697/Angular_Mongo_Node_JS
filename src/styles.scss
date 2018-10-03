@@ -1,0 +1,256 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.shopping_cart{
+  margin: 0 auto;
+  display: table;
+// float: right;
+}
+
+.side_bar_list{
+  list-style-type: none;
+  height: 100%;
+}
+
+.side_bar_list{
+  margin-top: 55px;
+  margin-bottom: 55px;
+  margin-left: 20px;
+}
+
+.main_page_content{
+  float: right;
+  margin-left: 60px;
+}
+
+.prod_image{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+    max-width: 185px;
+  max-height: 375px;
+}
+.cart_prod_image{
+  margin-bottom: 40px;
+  margin-top: 20px;
+    max-width: 185px;
+  max-height: 375px;
+}
+
+.prod_image_sports{
+  max-width: 315px;
+  max-height: 320px;
+  width: 80%;
+  height: 80%;
+}
+
+.cycle_img{
+  height: 80%;
+  width: 80%;
+}
+
+a{
+  color: black;
+}
+
+.content{
+  margin-top: 40px;
+}
+
+.side_bar{
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+
+.list_style li{
+  list-style-type: none;
+  float: right;
+}
+
+.prod_name{
+  text-align: center;
+  font-size: 14px;
+}
+
+.prod_price{
+  text-align: center;
+}
+
+.div_margin{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 0;
+  margin-left: 90;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.inner_div_margin{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.ainner_div_margin{
+  margin-bottom: 20px;
+}
+
+
+.view_all_btn{
+  float: right;
+  margin-right: 50px;
+}
+
+.category_title{
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.content{
+  margin-top: 80px;
+}
+
+img{
+  width: 100%;
+  margin: auto;
+}
+
+
+
+.special-offers{
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+.footer_custom{
+  border-bottom: 1px solid #e1e1e1;
+  width: 100% !important;
+  bottom: 0;
+  // position: fixed;
+}
+
+.bottom_footer{
+  background-image: linear-gradient(to bottom, #051630, #051732, #051833, #051835, #051937);
+}
+
+.bottom_logo{
+  height: 17%;
+  width: 17%;
+  margin: auto;
+}
+
+.bottom_logo_div{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.prod{
+  text-align: center;
+  transition: box-shadow .3s;
+  margin-bottom: 10px;
+    /* float: right; */
+}
+
+.prod:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.4);
+}
+
+.s:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.4);
+}
+
+.inner_prod_image{
+  height: 60%;
+  width: 60%;
+}
+
+.prod_price{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #b12704;
+}
+
+.product{
+  margin-top: 30px;
+  min-height: 250px;
+}
+
+#cartCounter{
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+// .cart_prod_image{
+//   // height: 30%;
+//   // width: 30%;
+// }
+
+.heading{
+  /* margin-left: 100px; */
+  margin-top: 30px;
+}
+
+
+.totalPrice{
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+// .product_image{
+//   height: 60%;
+//   width: 60%;
+// }
+
+.product_description{
+  margin-top: 20px;
+}
+
+
+.pro{
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+
+.product_name{
+  font-size: 20px;
+}
+
+.product_price{
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.add_to_cart_button{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#demo{
+  margin-top: 50px;
+}
+
+hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+#na{
+  background: #eee;
+}

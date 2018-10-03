@@ -1,0 +1,5 @@
+<div class="sidenav">
+  <a *ngFor="let category of categories" [routerLink]="['category', category]">
+    <span class="sidebar-category-text">{{ category }}</span>
+  </a>
+</div>

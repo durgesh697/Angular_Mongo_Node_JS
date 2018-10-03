@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    <h2>{{ category }}</h2></div>
+</div>
+<!-- <input type="text" [ngModel]="searchText" placeholder="search"> -->
+<div class="row container inner_div_margin">
+  <ng-container *ngFor="let p of products">
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <a [routerLink]="['/product', p._id]">
+        <div class="prod">
+          <div class="prod_image">
+            <img src="{{ p.image_url }}" alt="{{ p.name }}">
+          </div>
+          <div class="prod_name">
+            {{ p.name }}
+          </div>
+          <div class="prod_price">
+            {{ p.price | currency: "Rs. " }}
+          </div>
+        </div>
+      </a>
+    </div>
+  </ng-container>
+</div>
